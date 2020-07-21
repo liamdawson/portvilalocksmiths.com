@@ -5,4 +5,4 @@
 [build.environment]
   HUGO_VERSION = "0.74.2"
   HUGO_THEME = "hugo-serif-theme"
-  HUGO_BASEURL = "www.portvilalocksmiths.com"
+  HUGO_BASEURL = "/"
