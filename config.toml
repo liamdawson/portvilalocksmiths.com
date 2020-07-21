@@ -1,0 +1,10 @@
+baseURL = "www.portvilalocksmiths.com"
+languageCode = "en-au"
+title = "Port Vila Locksmiths"
+theme = "hugo-serif-theme"
+
+[params]
+  [params.logo]
+    mobile = "images/logo.svg"
+    standard = "images/logo.svg"
+    alt = "Port Vila Locksmiths"
