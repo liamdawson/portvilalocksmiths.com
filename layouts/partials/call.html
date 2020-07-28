@@ -1,0 +1,24 @@
+<div class="call">
+  <div class="call-box-top">
+{{ if .Site.Data.contact.phone }}
+    <div class="call-phone"><strong>Phone: </strong> {{ .Site.Data.contact.phone }} </div>
+{{ end }}
+{{ if .Site.Data.contact.email }}
+    <div class="call-email"><strong>Email: </strong>
+      <a href="mailto:{{ .Site.Data.contact.email }}">
+        {{ .Site.Data.contact.email }}
+      </a>
+    </div>
+{{ end }}
+{{ if .Site.Data.contact.address }}
+    <div class="call-address"><strong>Address: </strong>
+      <pre style="margin-top: 0.5em;">{{ range .Site.Data.contact.address }}{{ . }}{{ "\n" }}{{ end }}</pre>
+    </div>
+{{ end }}
+  </div>
+{{ if .Site.Data.contact.phone }}
+  <div class="call-box-bottom">
+    <a href="tel:{{ replace (replace .Site.Data.contact.phone " " "") "-" "" }}" class="button">Call us</a>
+  </div>
+{{ end }}
+</div>
