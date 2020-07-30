@@ -11,7 +11,7 @@
     </div>
 {{ end }}
 {{ if .Site.Data.contact.address }}
-    <div class="call-address"><strong>Address: </strong>
+    <div class="call-address" style="margin-top: 0.5em;"><strong>Address: </strong>
       <pre style="margin-top: 0.5em;">{{ range .Site.Data.contact.address }}{{ . }}{{ "\n" }}{{ end }}</pre>
     </div>
 {{ end }}
