@@ -1,3 +1,15 @@
-.sub-footer .zerostatic {
-  display: none !important;
+.service-summary .service-content h3 {
+  font-family: 'Lora', Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  letter-spacing: inherit;
+}
+
+.main-logo {
+  text-align: right;
+}
+
+.main-logo img {
+  @include media-breakpoint-up(md) {
+    max-height: 12em;
+  }
 }

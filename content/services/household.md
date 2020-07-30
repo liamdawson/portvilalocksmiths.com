@@ -6,7 +6,9 @@ featured: true
 weight: 1
 ---
 
-- Rekeying (Changing) existing locks while also supplying/repairing and replacing commercial and household/screen door locks
+### Port Vila Locksmiths: Vanuatu's Master Locksmith
+
+- Rekey/Change existing locks while also supply, repair and replace commercial and household/screen door locks
 - Rollerdoor Locks & Remotes
 - Gate Remotes
 - Cash Safes Supplied/Repaired/Installed/Opened & Change combinations
