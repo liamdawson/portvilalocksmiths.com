@@ -4,6 +4,7 @@ date: 2020-07-28T00:00:00Z
 draft: false
 featured: true
 weight: 2
+featureImage: 'images/Kaba Digital Lock.jpg'
 ---
 
 ### Port Vila Locksmiths covers the entire South Pacific

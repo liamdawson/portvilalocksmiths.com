@@ -28,6 +28,9 @@
     <div class="col-12 col-md-6 mb-1">
       <div class="service service-summary">
         <div class="service-content content">
+          {{ if .Params.featureImage }}
+            <img src="{{ .Params.featureImage | relURL }}" alt="" class="service-feature">
+          {{ end }}
           <h2 class="service-title">
             {{ .Title }}
           </h2>

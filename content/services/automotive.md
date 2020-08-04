@@ -4,6 +4,7 @@ date: 2020-07-28T00:00:00Z
 draft: false
 featured: true
 weight: 1
+featureImage: 'images/Nissan Flip Key.jpg'
 ---
 
 ### Here in Vanuatu, we
