@@ -1,4 +1,4 @@
-baseURL = "www.portvilalocksmiths.com"
+baseURL = "/"
 languageCode = "en-au"
 title = "Port Vila Locksmiths"
 theme = "hugo-serif-theme"
