@@ -2,10 +2,30 @@
   border-bottom: 8px solid #01416C;
 }
 
+h2.services-heading {
+  font-size: 32px;
+  padding-top: 1em;
+}
+
 .service-summary .service-content h3 {
+  color: inherit;
+  font-size: 22px;
+  font-family: "DM Serif Display", serif, -apple-system;
+  line-height: 1.4;
+  margin-bottom: 10px;
+  letter-spacing: inherit;
+}
+
+.service-summary .service-content h4 {
+  color: #106be0;
+  font: italic 20px 'Lora', Georgia, 'Times New Roman', Times, serif;
+  /*
   font-family: 'Lora', Georgia, 'Times New Roman', Times, serif;
   font-style: italic;
+  */
   letter-spacing: inherit;
+  line-height: 1.4;
+  font-weight: 400;
 }
 
 .main-logo {

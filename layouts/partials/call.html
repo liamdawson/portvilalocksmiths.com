@@ -1,20 +1,27 @@
 <div class="call">
   <div class="call-box-top">
 {{ if .Site.Data.contact.phone }}
-    <div class="call-phone"><strong>Phone: </strong> {{ .Site.Data.contact.phone }} </div>
+    <div class="call-phone"><strong>Phone:</strong><br>{{ .Site.Data.contact.phone }} </div>
 {{ end }}
 {{ if .Site.Data.contact.email }}
-    <div class="call-email"><strong>Email: </strong>
+    <div class="call-email"><strong>Email:</strong><br>
       <a href="mailto:{{ .Site.Data.contact.email }}">
         {{ .Site.Data.contact.email }}
       </a>
     </div>
 {{ end }}
 {{ if .Site.Data.contact.address }}
-    <div class="call-address" style="margin-top: 0.5em;"><strong>Address: </strong>
+    <div class="call-address" style="margin-top: 0.5em;"><strong>Address:</strong><br>
       <pre style="margin-top: 0.5em;">{{ range .Site.Data.contact.address }}{{ . }}{{ "\n" }}{{ end }}</pre>
     </div>
 {{ end }}
+
+    <div style="padding-top: 1em;">
+{{ if .Site.Data.contact.facebook }}
+<a href="https://facebook.com/{{ .Site.Data.contact.facebook }}"><img src="images/facebook.svg" alt="Facebook"></a>
+{{ end }}
+    </div>
+
   </div>
 {{ if .Site.Data.contact.phone }}
   <div class="call-box-bottom">

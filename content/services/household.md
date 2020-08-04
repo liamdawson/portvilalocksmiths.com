@@ -7,7 +7,7 @@ weight: 1
 featureImage: 'images/Rollerdoor Remote.jpg'
 ---
 
-### Port Vila Locksmiths: Vanuatu's Master Locksmith
+#### Port Vila Locksmiths: Vanuatu's Master Locksmith
 
 - Rekey/Change existing locks while also supply, repair and replace commercial and household/screen door locks
 - Rollerdoor Locks & Remotes

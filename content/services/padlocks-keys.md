@@ -7,7 +7,7 @@ weight: 3
 featureImage: 'images/Padlock 3.jpg'
 ---
 
-### Fully Mobile Locksmith Workshop in Vanuatu
+#### Fully Mobile Locksmith Workshop in Vanuatu
 
 - Huge range of Padlocks/Hasps designed to Australian standards and also Marine Padlocks/High Security Padlocks for gates/containers
 - Restricted Key Systems to Stop unauthorized persons from cutting keys

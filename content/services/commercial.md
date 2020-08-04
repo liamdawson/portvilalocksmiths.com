@@ -7,7 +7,7 @@ weight: 2
 featureImage: 'images/Kaba Digital Lock.jpg'
 ---
 
-### Port Vila Locksmiths covers the entire South Pacific
+#### Port Vila Locksmiths covers the entire South Pacific
 
 - Rekey/Change existing locks if your keys are lost or stolen
 - Supply, Repair or Replace commercial and household/screen door locks
